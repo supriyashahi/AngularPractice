@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav h1 {
+    color: rgb(8, 72, 135);
+    margin: 0;
+    font-size: xx-large;
+}
+.nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: rgb(8, 72, 135);
+}
+
+.nav .nav-search
+{
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex: 1;
+    display: flex;
+}
+.nav .nav-search input{
+    border: 1px solid rgb(8, 72, 135);
+    flex: 1;
+    height: 30px;
+    border-right: 0px;
+    color: rgb(8, 72, 135);
+}
+.nav .nav-search button{
+    border: 1px solid rgb(8, 72, 135);
+    height: 33.5px;
+    border-left: 0px;
+    color: rgb(8, 72, 135);
+}
